@@ -3,3 +3,5 @@ Thumbs.db
 .bundle
 *.DS_Store
 *._.DS_Store
+.npmrc
+.env

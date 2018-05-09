@@ -19,3 +19,6 @@ alias pblocal='ansible-playbook -i ~/ansible-localhost-inventory --connection=lo
 alias g='git'
 alias uuid="uuidgen | tr '[:upper:]' '[:lower:]'"
 alias lsl="ls -lhFA | less"
+server() { echo "http://localhost:${1}"; python -m SimpleHTTPServer $1 > /dev/null 2>&1; }
+alias serve='server'
+#gocd() { cd `go list -f '{{.Dir}}' $1` }

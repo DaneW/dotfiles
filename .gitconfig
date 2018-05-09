@@ -33,3 +33,6 @@
 	trustExitCode = true
 [credential]
 	helper = cache --timeout=3600
+[user]
+	name = Dane Wilson
+	email = github@danewilson.me
